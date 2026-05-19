@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://127.0.0.1:5500/sam.amazon%20task/index.html#shop -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas</title>
+    <link rel="stylesheet" href="./Adidas_files/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <img src="./Adidas_files/adidas-logo-white-symbol-clothes-design-icon-abstract-football-illustration-with-black-background-free-vector.jpg" alt="">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="http://127.0.0.1:5500/sam.amazon%20task/index.html#home">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/sam.amazon%20task/index.html#shop">Shop</a></li>
+        <li><a href="http://127.0.0.1:5500/sam.amazon%20task/index.html#collections">Collections</a></li>
+        <li><a href="http://127.0.0.1:5500/sam.amazon%20task/index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <a href="http://127.0.0.1:5500/sam.amazon%20task/index.html#cart">Cart</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Unleash Your Potential</h1>
+      <p>Shop the latest in performance gear and apparel.</p>
+      <a href="http://127.0.0.1:5500/sam.amazon%20task/index.html#shop" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="featured" id="shop">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="./Adidas_files/samar.project.jpg" alt="Shoe 1">
+        <h3>Running Shoes</h3>
+        <h4>Limited Edition</h4>
+        <p>Price:$120</p>
+        <p>Unisex Shoe</p>
+      </div>
+      <div class="product-card">
+        <img src="./Adidas_files/332124967_1194861774754248_7425048319902456266_n-e1676906083560.webp" alt="Shoe 2">
+        <h3>Basketball Shoes</h3>
+        <h4>Limited Edition</h4>
+        <p> Price:$150</p>
+        <p>Men's shoes</p>
+      </div>
+      <div class="product-card">
+        <img src="./Adidas_files/1049639-377673BU.webp" alt="Shoe 3">
+        <h3>Casual Sneakers</h3>
+        <h4>Limited Edition</h4>
+        <p>Price:$90</p>
+        <p>Men's shoes</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections Section -->
+  <section class="collections" id="collections">
+    <h2>Our Collections</h2>
+    <p>Explore exclusive collections designed for every sport.</p>
+    <div class="collection-images">
+      <img src="./Adidas_files/Batting_0b03e5d6-060d-4a45-aaf8-a1fe3fe091d3 - Copy.webp" alt="Collection 1">
+      <img src="./Adidas_files/adidas-Predator-20-Boot-Review.webp" alt="Collection 2">
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>© 2025 Adidas Clone. All rights reserved.</p>
+  </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
